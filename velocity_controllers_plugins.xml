@@ -1,0 +1,35 @@
+<library path="lib/libmy_velocity_controllers">
+
+  <!-- <class name="my_velocity_controllers/JointVelocityController" type="my_velocity_controllers::JointVelocityController" base_class_type="controller_interface::ControllerBase">
+    <description>
+      The JointVelocityController tracks velocity commands. It expects a VelocityJointInterface type of hardware interface.
+    </description>
+  </class>-->
+
+  <!-- <class name="my_velocity_controllers/JointPositionController" type="my_velocity_controllers::JointPositionController" base_class_type="controller_interface::ControllerBase">
+    <description>
+      The JointPositionController converts position commands to velocity commands. It expects a VelocityJointInterface type of hardware interface.
+    </description>
+  </class>  -->
+  <!-- <class name="my_controller/my_controller" type="my_controller::my_controller" base_class_type="controller_interface::ControllerBase">
+    <description>
+      The JointPositionController converts position commands to velocity commands. It expects a VelocityJointInterface type of hardware interface.
+    </description>
+  </class>  -->
+
+<class name="my_velocity_controllers/MyController" type="my_velocity_controllers::MyController" base_class_type="controller_interface::ControllerBase">
+  <description>
+  </description>
+</class>
+
+<class name="my_velocity_controllers/MyGroupController" type="my_velocity_controllers::MyGroupController" base_class_type="controller_interface::ControllerBase">
+  <description>
+  </description>
+</class> 
+  <!-- <class name="my_velocity_controllers/JointGroupVelocityController" type="my_velocity_controllers::JointGroupVelocityController" base_class_type="controller_interface::ControllerBase">
+    <description>
+      The JointGroupVelocityController tracks velocity commands for a set of joints. It expects a VelocityJointInterface type of hardware interface.
+    </description>
+  </class> -->
+
+</library>
